@@ -62,6 +62,3 @@ int main() {
 
 	return 0;
 }
-
-// Compiling Method
-// g++ -o 01-EnvironmentSetup.out -std=c++11 -L/usr/local/lib -lglfw3 -pthread -lGLEW -lGLU -lGL -lrt -lXrandr -lXxf86vm -lXi -lXinerama -lX11 -c 01-EnvironmentSetup.cpp
