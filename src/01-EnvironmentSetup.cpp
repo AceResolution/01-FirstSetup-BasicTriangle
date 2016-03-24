@@ -36,7 +36,7 @@ int main() {
 
 	// Open a window and create its OpenGL context
 	GLFWwindow* window; // (In the accompanying source code, this variable is global)
-	window = glfwCreateWindow(1024, 768, "OpenGL and Libraries Environment Setup", NULL, NULL);
+	window = glfwCreateWindow(1024, 768, "OpenGL and Libraries Environment Setup (Linux Ubuntu)", NULL, NULL);
 	if (window == NULL) {
 		fprintf(stderr, "Failed to open GLFW window. If you have an Intel GPU, they are not 3.3 compatible.");
 		glfwTerminate();
